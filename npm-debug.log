@@ -1,0 +1,202 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose readDependencies loading dependencies from C:\Users\Nirav\my-proj\package.json
+5 verbose install where, deps [ 'C:\\Users\\Nirav\\my-proj',
+5 verbose install   [ 'angular2',
+5 verbose install     'systemjs',
+5 verbose install     'es6-shim',
+5 verbose install     'reflect-metadata',
+5 verbose install     'rxjs',
+5 verbose install     'zone.js',
+5 verbose install     'a2-in-memory-web-api',
+5 verbose install     'bootstrap',
+5 verbose install     'concurrently',
+5 verbose install     'lite-server',
+5 verbose install     'typescript',
+5 verbose install     'typings',
+5 verbose install     'canonical-path',
+5 verbose install     'http-server',
+5 verbose install     'tslint',
+5 verbose install     'lodash',
+5 verbose install     'jasmine-core',
+5 verbose install     'karma',
+5 verbose install     'karma-chrome-launcher',
+5 verbose install     'karma-cli',
+5 verbose install     'karma-htmlfile-reporter',
+5 verbose install     'karma-jasmine',
+5 verbose install     'protractor',
+5 verbose install     'rimraf' ] ]
+6 verbose install where, peers [ 'C:\\Users\\Nirav\\my-proj', [] ]
+7 verbose installManyTop reading for lifecycle C:\Users\Nirav\my-proj\package.json
+8 info preinstall angular2-quickstart@1.0.0
+9 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\a2-in-memory-web-api\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\angular2\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\bootstrap\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\canonical-path\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\concurrently\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\es6-shim\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\http-server\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\jasmine-core\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\karma\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\karma-chrome-launcher\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\karma-cli\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\karma-htmlfile-reporter\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\karma-jasmine\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\lite-server\package.json
+23 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\lodash\package.json
+24 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\protractor\package.json
+25 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\reflect-metadata\package.json
+26 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\rimraf\package.json
+27 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\rxjs\package.json
+28 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\systemjs\package.json
+29 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\tslint\package.json
+30 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\typescript\package.json
+31 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\typings\package.json
+32 verbose installManyTop reading scoped package data from C:\Users\Nirav\my-proj\node_modules\zone.js\package.json
+33 info package.json lodash@4.11.2 No README data
+34 verbose readDependencies loading dependencies from C:\Users\Nirav\my-proj\package.json
+35 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\a2-in-memory-web-api\package.json
+36 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\angular2\package.json
+37 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\bootstrap\package.json
+38 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\canonical-path\package.json
+39 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\concurrently\package.json
+40 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\es6-shim\package.json
+41 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\http-server\package.json
+42 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\jasmine-core\package.json
+43 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\karma\package.json
+44 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\karma-chrome-launcher\package.json
+45 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\karma-cli\package.json
+46 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\karma-htmlfile-reporter\package.json
+47 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\karma-jasmine\package.json
+48 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\lite-server\package.json
+49 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\lodash\package.json
+50 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\protractor\package.json
+51 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\reflect-metadata\package.json
+52 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\rimraf\package.json
+53 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\rxjs\package.json
+54 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\systemjs\package.json
+55 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\tslint\package.json
+56 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\typescript\package.json
+57 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\typings\package.json
+58 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\zone.js\package.json
+59 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\concurrent\package.json
+60 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\concurrent.cmd\package.json
+61 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\concurrently\package.json
+62 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\concurrently.cmd\package.json
+63 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\hs\package.json
+64 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\hs.cmd\package.json
+65 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\http-server\package.json
+66 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\http-server.cmd\package.json
+67 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\karma\package.json
+68 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\karma.cmd\package.json
+69 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\lite-server\package.json
+70 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\lite-server.cmd\package.json
+71 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\protractor\package.json
+72 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\protractor.cmd\package.json
+73 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\rimraf\package.json
+74 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\rimraf.cmd\package.json
+75 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\tsc\package.json
+76 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\tsc.cmd\package.json
+77 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\tslint\package.json
+78 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\tslint.cmd\package.json
+79 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\tsserver\package.json
+80 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\tsserver.cmd\package.json
+81 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\typings\package.json
+82 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\typings.cmd\package.json
+83 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\webdriver-manager\package.json
+84 verbose targetResolver reading package data from C:\Users\Nirav\my-proj\node_modules\.bin\webdriver-manager.cmd\package.json
+85 verbose already installed skipping canonical-path@0.0.2 C:\Users\Nirav\my-proj
+86 verbose already installed skipping http-server@^0.9.0 C:\Users\Nirav\my-proj
+87 verbose already installed skipping tslint@^3.7.4 C:\Users\Nirav\my-proj
+88 verbose already installed skipping lodash@^4.11.1 C:\Users\Nirav\my-proj
+89 verbose already installed skipping jasmine-core@~2.4.1 C:\Users\Nirav\my-proj
+90 verbose already installed skipping karma@^0.13.22 C:\Users\Nirav\my-proj
+91 verbose already installed skipping karma-chrome-launcher@^0.2.3 C:\Users\Nirav\my-proj
+92 verbose already installed skipping karma-cli@^0.1.2 C:\Users\Nirav\my-proj
+93 verbose already installed skipping karma-htmlfile-reporter@^0.2.2 C:\Users\Nirav\my-proj
+94 verbose already installed skipping karma-jasmine@^0.3.8 C:\Users\Nirav\my-proj
+95 verbose already installed skipping protractor@^3.3.0 C:\Users\Nirav\my-proj
+96 verbose already installed skipping rimraf@^2.5.2 C:\Users\Nirav\my-proj
+97 verbose already installed skipping angular2@2.0.0-beta.17 C:\Users\Nirav\my-proj
+98 verbose already installed skipping systemjs@0.19.26 C:\Users\Nirav\my-proj
+99 verbose already installed skipping es6-shim@^0.35.0 C:\Users\Nirav\my-proj
+100 verbose already installed skipping reflect-metadata@0.1.2 C:\Users\Nirav\my-proj
+101 verbose already installed skipping rxjs@5.0.0-beta.6 C:\Users\Nirav\my-proj
+102 verbose already installed skipping zone.js@^0.6.12 C:\Users\Nirav\my-proj
+103 verbose already installed skipping a2-in-memory-web-api@^0.1.17 C:\Users\Nirav\my-proj
+104 verbose already installed skipping bootstrap@^3.3.6 C:\Users\Nirav\my-proj
+105 verbose already installed skipping concurrently@^2.0.0 C:\Users\Nirav\my-proj
+106 verbose already installed skipping lite-server@^2.2.0 C:\Users\Nirav\my-proj
+107 verbose already installed skipping typescript@^1.8.10 C:\Users\Nirav\my-proj
+108 verbose already installed skipping typings@^0.8.1 C:\Users\Nirav\my-proj
+109 silly install resolved []
+110 info build C:\Users\Nirav\my-proj
+111 info linkStuff angular2-quickstart@1.0.0
+112 silly linkStuff angular2-quickstart@1.0.0 has C:\Users\Nirav as its parent node_modules
+113 verbose linkBins angular2-quickstart@1.0.0
+114 verbose linkMans angular2-quickstart@1.0.0
+115 verbose rebuildBundles angular2-quickstart@1.0.0
+116 verbose rebuildBundles [ '.bin',
+116 verbose rebuildBundles   'a2-in-memory-web-api',
+116 verbose rebuildBundles   'angular2',
+116 verbose rebuildBundles   'bootstrap',
+116 verbose rebuildBundles   'canonical-path',
+116 verbose rebuildBundles   'concurrently',
+116 verbose rebuildBundles   'es6-shim',
+116 verbose rebuildBundles   'http-server',
+116 verbose rebuildBundles   'jasmine-core',
+116 verbose rebuildBundles   'karma',
+116 verbose rebuildBundles   'karma-chrome-launcher',
+116 verbose rebuildBundles   'karma-cli',
+116 verbose rebuildBundles   'karma-htmlfile-reporter',
+116 verbose rebuildBundles   'karma-jasmine',
+116 verbose rebuildBundles   'lite-server',
+116 verbose rebuildBundles   'lodash',
+116 verbose rebuildBundles   'protractor',
+116 verbose rebuildBundles   'reflect-metadata',
+116 verbose rebuildBundles   'rimraf',
+116 verbose rebuildBundles   'rxjs',
+116 verbose rebuildBundles   'systemjs',
+116 verbose rebuildBundles   'tslint',
+116 verbose rebuildBundles   'typescript',
+116 verbose rebuildBundles   'typings',
+116 verbose rebuildBundles   'zone.js' ]
+117 info install angular2-quickstart@1.0.0
+118 info postinstall angular2-quickstart@1.0.0
+119 verbose unsafe-perm in lifecycle true
+120 info angular2-quickstart@1.0.0 Failed to exec postinstall script
+121 verbose stack Error: angular2-quickstart@1.0.0 postinstall: `typings install`
+121 verbose stack Exit status 1
+121 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:217:16)
+121 verbose stack     at emitTwo (events.js:87:13)
+121 verbose stack     at EventEmitter.emit (events.js:172:7)
+121 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+121 verbose stack     at emitTwo (events.js:87:13)
+121 verbose stack     at ChildProcess.emit (events.js:172:7)
+121 verbose stack     at maybeClose (internal/child_process.js:827:16)
+121 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+122 verbose pkgid angular2-quickstart@1.0.0
+123 verbose cwd C:\Users\Nirav\my-proj
+124 error Windows_NT 10.0.10586
+125 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+126 error node v4.4.3
+127 error npm  v2.15.1
+128 error code ELIFECYCLE
+129 error angular2-quickstart@1.0.0 postinstall: `typings install`
+129 error Exit status 1
+130 error Failed at the angular2-quickstart@1.0.0 postinstall script 'typings install'.
+130 error This is most likely a problem with the angular2-quickstart package,
+130 error not with npm itself.
+130 error Tell the author that this fails on your system:
+130 error     typings install
+130 error You can get information on how to open an issue for this project with:
+130 error     npm bugs angular2-quickstart
+130 error Or if that isn't available, you can get their info via:
+130 error
+130 error     npm owner ls angular2-quickstart
+130 error There is likely additional logging output above.
+131 verbose exit [ 1, true ]
