@@ -1,0 +1,31 @@
+<h2>This is Playlist</h2>
+{{mytest}}
+<b style="color: #0000ee">{{playlistname}}</b>
+<input type="text" #myinput>
+<button (click)="onAdd(myinput.value)">Add</button>
+
+<button (click)="onSearch(myinput.value)" >Search</button>
+<br>
+<input type="text" #yourinput>
+<button (click)="yourinput.value=myinput.value">Copy</button>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <td>ID</td><td>Name</td><td>Desc</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="#v of videos" (click)="onSelect(v,mytest)">
+      <td >{{v.id}}</td>
+      <td>{{v.name}}</td>
+      <td>{{v.desc}}</td>
+    </tr>
+  </tbody>
+</table>
+<!--
+
+<ul>
+  <li *ngFor="#v of videos">{{v.desc}} </li>
+</ul>
+
+-->
